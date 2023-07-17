@@ -1,0 +1,237 @@
+// 메인 탭
+
+{
+    //  table "recipe" - id,title,thumbnail
+    //  table "profile" - user_id, user_nickname, user_thumbnail
+    //  order by created_at 최신순
+    //  LIMIT 0,10
+
+    //  "user_id number" = 유저 클릭하여 유저 상세 랜딩 여부에 따라 필요.
+    //  로그인-구독 요리사 신규 요리, 미로그인-신규 요리
+  "new_recipe": [
+    {
+      "id": 1,
+      "title": "감자채볶음",
+      "thumbnail": "https://cdn.011st.com/11dims/resize/600x600/quality/75/11src/product/3628301671/B.jpg?796000000",
+      "user_id": 1,
+      "user_nickname": "권오현",
+      "user_thumbnail": "https://image.ytn.co.kr/general/jpg/2017/0104/201701041140063243_d.jpg"
+    },
+    {
+      "id": 1,
+      "title": "감자채볶음",
+      "thumbnail": "https://cdn.011st.com/11dims/resize/600x600/quality/75/11src/product/3628301671/B.jpg?796000000",
+      "user_id": 1,
+      "user_nickname": "권오현",
+      "user_thumbnail": "https://image.ytn.co.kr/general/jpg/2017/0104/201701041140063243_d.jpg"
+    },
+    {
+      "id": 1,
+      "title": "감자채볶음",
+      "thumbnail": "https://cdn.011st.com/11dims/resize/600x600/quality/75/11src/product/3628301671/B.jpg?796000000",
+      "user_id": 1,
+      "user_nickname": "권오현",
+      "user_thumbnail": "https://image.ytn.co.kr/general/jpg/2017/0104/201701041140063243_d.jpg"
+    },
+    {
+      "id": 1,
+      "title": "감자채볶음",
+      "thumbnail": "https://cdn.011st.com/11dims/resize/600x600/quality/75/11src/product/3628301671/B.jpg?796000000",
+      "user_id": 1,
+      "user_nickname": "권오현",
+      "user_thumbnail": "https://image.ytn.co.kr/general/jpg/2017/0104/201701041140063243_d.jpg"
+    },
+    {
+      "id": 1,
+      "title": "감자채볶음",
+      "thumbnail": "https://cdn.011st.com/11dims/resize/600x600/quality/75/11src/product/3628301671/B.jpg?796000000",
+      "user_id": 1,
+      "user_nickname": "권오현",
+      "user_thumbnail": "https://image.ytn.co.kr/general/jpg/2017/0104/201701041140063243_d.jpg"
+    },
+    {
+      "id": 1,
+      "title": "감자채볶음",
+      "thumbnail": "https://cdn.011st.com/11dims/resize/600x600/quality/75/11src/product/3628301671/B.jpg?796000000",
+      "user_id": 1,
+      "user_nickname": "권오현",
+      "user_thumbnail": "https://image.ytn.co.kr/general/jpg/2017/0104/201701041140063243_d.jpg"
+    },
+    {
+      "id": 1,
+      "title": "감자채볶음",
+      "thumbnail": "https://cdn.011st.com/11dims/resize/600x600/quality/75/11src/product/3628301671/B.jpg?796000000",
+      "user_id": 1,
+      "user_nickname": "권오현",
+      "user_thumbnail": "https://image.ytn.co.kr/general/jpg/2017/0104/201701041140063243_d.jpg"
+    },
+    {
+      "id": 1,
+      "title": "감자채볶음",
+      "thumbnail": "https://cdn.011st.com/11dims/resize/600x600/quality/75/11src/product/3628301671/B.jpg?796000000",
+      "user_id": 1,
+      "user_nickname": "권오현",
+      "user_thumbnail": "https://image.ytn.co.kr/general/jpg/2017/0104/201701041140063243_d.jpg"
+    },
+    {
+      "id": 1,
+      "title": "감자채볶음",
+      "thumbnail": "https://cdn.011st.com/11dims/resize/600x600/quality/75/11src/product/3628301671/B.jpg?796000000",
+      "user_id": 1,
+      "user_nickname": "권오현",
+      "user_thumbnail": "https://image.ytn.co.kr/general/jpg/2017/0104/201701041140063243_d.jpg"
+    },
+    {
+      "id": 1,
+      "title": "감자채볶음",
+      "thumbnail": "https://cdn.011st.com/11dims/resize/600x600/quality/75/11src/product/3628301671/B.jpg?796000000",
+      "user_id": 1,
+      "user_nickname": "권오현",
+      "user_thumbnail": "https://image.ytn.co.kr/general/jpg/2017/0104/201701041140063243_d.jpg"
+    }
+  ],
+  "new_chef": [],
+    //  table "recipe" - id,title,thumbnail
+    //  table "profile" - user_id, user_nickname, user_thumbnail
+    //  order by "like" count
+    //  LIMIT 0,10
+
+    //  "user_id number" = 유저 클릭하여 유저 상세 랜딩 여부에 따라 필요.
+  "popular_recipe": [
+    {
+      "id": 1,
+      "title": "감자채볶음",
+      "thumbnail": "https://cdn.011st.com/11dims/resize/600x600/quality/75/11src/product/3628301671/B.jpg?796000000",
+      "user_id": 1,
+      "user_nickname": "권오현",
+      "user_thumbnail": "https://image.ytn.co.kr/general/jpg/2017/0104/201701041140063243_d.jpg"
+    },
+    {
+      "id": 1,
+      "title": "감자채볶음",
+      "thumbnail": "https://cdn.011st.com/11dims/resize/600x600/quality/75/11src/product/3628301671/B.jpg?796000000",
+      "user_id": 1,
+      "user_nickname": "권오현",
+      "user_thumbnail": "https://image.ytn.co.kr/general/jpg/2017/0104/201701041140063243_d.jpg"
+    },
+    {
+      "id": 1,
+      "title": "감자채볶음",
+      "thumbnail": "https://cdn.011st.com/11dims/resize/600x600/quality/75/11src/product/3628301671/B.jpg?796000000",
+      "user_id": 1,
+      "user_nickname": "권오현",
+      "user_thumbnail": "https://image.ytn.co.kr/general/jpg/2017/0104/201701041140063243_d.jpg"
+    },
+    {
+      "id": 1,
+      "title": "감자채볶음",
+      "thumbnail": "https://cdn.011st.com/11dims/resize/600x600/quality/75/11src/product/3628301671/B.jpg?796000000",
+      "user_id": 1,
+      "user_nickname": "권오현",
+      "user_thumbnail": "https://image.ytn.co.kr/general/jpg/2017/0104/201701041140063243_d.jpg"
+    },
+    {
+      "id": 1,
+      "title": "감자채볶음",
+      "thumbnail": "https://cdn.011st.com/11dims/resize/600x600/quality/75/11src/product/3628301671/B.jpg?796000000",
+      "user_id": 1,
+      "user_nickname": "권오현",
+      "user_thumbnail": "https://image.ytn.co.kr/general/jpg/2017/0104/201701041140063243_d.jpg"
+    },
+    {
+      "id": 1,
+      "title": "감자채볶음",
+      "thumbnail": "https://cdn.011st.com/11dims/resize/600x600/quality/75/11src/product/3628301671/B.jpg?796000000",
+      "user_id": 1,
+      "user_nickname": "권오현",
+      "user_thumbnail": "https://image.ytn.co.kr/general/jpg/2017/0104/201701041140063243_d.jpg"
+    },
+    {
+      "id": 1,
+      "title": "감자채볶음",
+      "thumbnail": "https://cdn.011st.com/11dims/resize/600x600/quality/75/11src/product/3628301671/B.jpg?796000000",
+      "user_id": 1,
+      "user_nickname": "권오현",
+      "user_thumbnail": "https://image.ytn.co.kr/general/jpg/2017/0104/201701041140063243_d.jpg"
+    },
+    {
+      "id": 1,
+      "title": "감자채볶음",
+      "thumbnail": "https://cdn.011st.com/11dims/resize/600x600/quality/75/11src/product/3628301671/B.jpg?796000000",
+      "user_id": 1,
+      "user_nickname": "권오현",
+      "user_thumbnail": "https://image.ytn.co.kr/general/jpg/2017/0104/201701041140063243_d.jpg"
+    },
+    {
+      "id": 1,
+      "title": "감자채볶음",
+      "thumbnail": "https://cdn.011st.com/11dims/resize/600x600/quality/75/11src/product/3628301671/B.jpg?796000000",
+      "user_id": 1,
+      "user_nickname": "권오현",
+      "user_thumbnail": "https://image.ytn.co.kr/general/jpg/2017/0104/201701041140063243_d.jpg"
+    },
+    {
+      "id": 1,
+      "title": "감자채볶음",
+      "thumbnail": "https://cdn.011st.com/11dims/resize/600x600/quality/75/11src/product/3628301671/B.jpg?796000000",
+      "user_id": 1,
+      "user_nickname": "권오현",
+      "user_thumbnail": "https://image.ytn.co.kr/general/jpg/2017/0104/201701041140063243_d.jpg"
+    }
+  ],
+    //  table "prifile" - id,thumbnail,nickname
+    //  추천 정책 정의 필요.
+    //  LIMIT 0,10
+  "recommend_chef": [
+    {
+      "id": 1,
+      "thumbnail": "https://image.ytn.co.kr/general/jpg/2017/0104/201701041140063243_d.jpg",
+      "nickname": "비룡"
+    },
+    {
+      "id": 1,
+      "thumbnail": "https://image.ytn.co.kr/general/jpg/2017/0104/201701041140063243_d.jpg",
+      "nickname": "비룡"
+    },
+    {
+      "id": 1,
+      "thumbnail": "https://image.ytn.co.kr/general/jpg/2017/0104/201701041140063243_d.jpg",
+      "nickname": "비룡"
+    },
+    {
+      "id": 1,
+      "thumbnail": "https://image.ytn.co.kr/general/jpg/2017/0104/201701041140063243_d.jpg",
+      "nickname": "비룡"
+    },
+    {
+      "id": 1,
+      "thumbnail": "https://image.ytn.co.kr/general/jpg/2017/0104/201701041140063243_d.jpg",
+      "nickname": "비룡"
+    },
+    {
+      "id": 1,
+      "thumbnail": "https://image.ytn.co.kr/general/jpg/2017/0104/201701041140063243_d.jpg",
+      "nickname": "비룡"
+    },
+    {
+      "id": 1,
+      "thumbnail": "https://image.ytn.co.kr/general/jpg/2017/0104/201701041140063243_d.jpg",
+      "nickname": "비룡"
+    },
+    {
+      "id": 1,
+      "thumbnail": "https://image.ytn.co.kr/general/jpg/2017/0104/201701041140063243_d.jpg",
+      "nickname": "비룡"
+    },
+    {
+      "id": 1,
+      "thumbnail": "https://image.ytn.co.kr/general/jpg/2017/0104/201701041140063243_d.jpg",
+      "nickname": "비룡"
+    },
+    {
+      "id": 1,
+      "thumbnail": "https://image.ytn.co.kr/general/jpg/2017/0104/201701041140063243_d.jpg",
+      "nickname": "비룡"
+    }
+  ]
+}
